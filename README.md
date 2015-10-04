@@ -1,4 +1,5 @@
-# Sancus.js better api for ES6 promises.
+Sancus.js better api for ES6 promises
+===
 [![Build Status](https://travis-ci.org/nirth/sancus.js.svg?branch=master)](https://travis-ci.org/nirth/horkos.js)
 [![Circle CI](https://circleci.com/gh/nirth/sancus.js.svg?style=svg)](https://circleci.com/gh/nirth/sancus.js)
 
@@ -44,6 +45,8 @@ Async example:
   connect('mongodb://localhost:27017')
     .then(doSomethingWithDatabase);
   ```
+
+
 
 
 [es6 promise api]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
