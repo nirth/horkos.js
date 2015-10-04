@@ -1,12 +1,16 @@
 {
   "author": "David Sergey Grigoryan <me@davidsergey> (http://davidsergey.com)",
   "name": "sancus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sancus, wrapper around ES6 promises to make them more user friendly.",
   "repository": {
     "type": "git",
     "url": "git@github.com:nirth/sancus.js.git"
   },
+  "keywords": [
+    "promise", "promises", "future", "futures", "scala-like", "deferred",
+    "deferreds", "resolve", "sancus", "es6"
+  ],
   "main": "lib/sancus.js",
   "scripts": {
     "compile": "node node_modules/gulp/bin/gulp.js production",
