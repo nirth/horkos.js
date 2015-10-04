@@ -1,5 +1,7 @@
 # Sancus.js better api for ES6 promises.
-[![Build Status](https://travis-ci.org/nirth/horkos.js.svg?branch=master)](https://travis-ci.org/nirth/horkos.js)
+[![Build Status](https://travis-ci.org/nirth/sancus.js.svg?branch=master)](https://travis-ci.org/nirth/horkos.js)
+[![Circle CI](https://circleci.com/gh/nirth/sancus.js.svg?style=svg)](https://circleci.com/gh/nirth/sancus.js)
+
 
 ### Summary
 Sancus provides similar to Scala api for promises/futures, for those of us who
