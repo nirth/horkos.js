@@ -4,7 +4,6 @@ var babel = require('gulp-babel');
 var eslint = require('gulp-eslint');
 var mocha = require('gulp-mocha');
 var uglify = require('gulp-uglify');
-// var jsdoc = require('gulp-jsdoc');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('es', function () {
