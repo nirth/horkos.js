@@ -2,8 +2,9 @@
 [![Build Status](https://travis-ci.org/nirth/horkos.js.svg?branch=master)](https://travis-ci.org/nirth/horkos.js)
 
 ### Summary
-I always found [es6 promise api] to be counter counterintuitive, so I decided
-to create something akin to Futures in other languages. This micro-library
+Sancus provides similar to Scala api for promises/futures, for those of us who
+think that [es6 promise api] is rather counterintuitive. Sancus doesn't provide
+any new functionality just makes api better, if not awesome. This micro-library
 named after roman god of oaths and truth - [Sancus].
 
 ### Usage
