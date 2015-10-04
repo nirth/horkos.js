@@ -1,10 +1,10 @@
 /**
- * Future class, acts as better api for ES6 promises.
+ * Sancus class, acts as better api for ES6 promises.
  * @class
  * @param {object} context - If provided, will be used to bind functions to context.
  *
  */
-export class Horkos {
+export class Sancus {
   constructor (context = null) {
     let resolve, reject;
     this._context = context;
@@ -80,7 +80,7 @@ export class Horkos {
    */
   toString() {
     const {resolved, rejected} = this;
-    return `[Horkos resolved=${resolved} rejected=${rejected}]`;
+    return `[Sancus resolved=${resolved} rejected=${rejected}]`;
   }
 }
 
@@ -89,4 +89,4 @@ export class Horkos {
  * here is boring alias to Horkus - Deferred.
  * @class
  */
-export const Deferred = Horkos;
+export const Deferred = Sancus;

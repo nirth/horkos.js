@@ -1,13 +1,13 @@
 {
   "author": "David Sergey Grigoryan <me@davidsergey> (http://davidsergey.com)",
-  "name": "horkos.js",
+  "name": "sancus.js",
   "version": "1.0.1",
-  "description": "Horkos, wrapper around ES6 promises to make them more user friendly.",
+  "description": "Sancus, wrapper around ES6 promises to make them more user friendly.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nirth/horkos.js.git"
+    "url": "git@github.com:nirth/sancus.js.git"
   },
-  "main": "lib/horkos.js",
+  "main": "lib/sancus.js",
   "scripts": {
     "compile": "node node_modules/gulp/bin/gulp.js production",
     "test": "node node_modules/gulp/bin/gulp.js ci"
