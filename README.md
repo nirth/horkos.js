@@ -9,13 +9,16 @@ named after roman god of oaths and truth - [Sancus].
 ### Usage
 
 Basic example:
-    import {Deferred} from 'sancus';
-    const deferred = new Deferred();
-    deferred.promise.then((result) => console.log(`result is ${result}`));
-    deferred.resolve('Awesome');
+
+  ```javascript
+  import {Deferred} from 'sancus';
+  const deferred = new Deferred();
+  deferred.promise.then((result) => console.log(`result is ${result}`));
+  deferred.resolve('Awesome');
+  ```
 
 Async example:
-
+  ```javascript
   // Function connects to mongo, and returns promise.
   import {Deferred} from 'sancus';
 
@@ -37,6 +40,7 @@ Async example:
   // Usage example:
   connect('mongodb://localhost:27017')
     .then(doSomethingWithDatabase);
+  ```
 
 
 [es6 promise api]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
