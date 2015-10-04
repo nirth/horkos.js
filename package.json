@@ -1,6 +1,6 @@
 {
   "author": "David Sergey Grigoryan <me@davidsergey> (http://davidsergey.com)",
-  "name": "sancus.js",
+  "name": "sancus",
   "version": "1.0.1",
   "description": "Sancus, wrapper around ES6 promises to make them more user friendly.",
   "repository": {
